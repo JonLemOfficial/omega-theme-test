@@ -1,0 +1,67 @@
+{
+  "name": "omega-theme-test",
+  "version": "1.0.0",
+  "description": "A React/Polaris test for Omega Theme by Jonathan Lemos",
+  "private": true,
+  "main": "n/a",
+  "scripts": {
+    "dev": "nodemon ./app.js",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonLemOfficial/omega-theme-test.git"
+  },
+  "keywords": [
+    "react",
+    "react-polaris",
+    "react-form",
+    "react-test",
+    "polaris-ui-design"
+  ],
+  "author": {
+    "name": "Jonathan \"JonLem\" Lemos",
+    "email": "jonlemofficial@hotmail.com",
+    "github": "https://github.com/JonLemOfficial",
+    "twitter": "https://twitter.com/JonLemOfficial",
+    "url": "https://jonlemofficial.com/"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/JonLemOfficial/omega-theme-test#readme",
+  "bugs": {
+    "url": "https://github.com/JonLemOfficial/omega-theme-test/issues"
+  },
+  "engines": {
+    "node": ">= 14.18.x",
+    "npm": ">= 6.14.x",
+    "yarn": ">= 1.22.x"
+  },
+  "dependencies": {
+    "@shopify/polaris": "^7.5.0",
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "prop-types": "^15.8.0",
+    "qs": "^6.10.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^6.2.1",
+    "react-router-dom": "^6.2.1",
+    "require-directory": "^2.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "nodemon": "^2.0.15",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
