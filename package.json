@@ -5,12 +5,12 @@
   "private": true,
   "main": "n/a",
   "scripts": {
-    "build": "cross-env NODE_ENV=production webpack --progress",
+    "build": "webpack --progress",
     "dev": "npm run development",
     "development": "run-s wpk exp",
     "exp": "nodemon ./app/server.js",
     "serve": "node ./app/server.js",
-    "start": "run-s build serve",
+    "start": "npm run build && npm run serve",
     "wpk": "webpack --progress"
   },
   "repository": {
