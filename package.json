@@ -10,7 +10,7 @@
     "development": "run-s wpk exp",
     "exp": "nodemon ./app/server.js",
     "serve": "node ./app/server.js",
-    "start": "npm run build && npm run serve",
+    "start": "npm run serve",
     "wpk": "webpack --progress"
   },
   "repository": {
