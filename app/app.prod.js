@@ -46,8 +46,7 @@ app.post("/ajax", async (req, res) => {
     ]
   });
   res.json({
-    success: true,
-    token: req.body.reCaptchaToken
+    success: true
   });
 });
 

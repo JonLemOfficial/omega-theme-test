@@ -61,7 +61,6 @@ const Register = ( props ) => {
     if ( name && phone && email && address && reCaptchaToken ) {
       let response = await axios.post("/ajax", { name, phone, email, address, reCaptchaToken });
       if ( response ) {
-        console.log(response);
         setSent(true);
         await setTimeout(() => { setSending(false); }, 3000);
       }
